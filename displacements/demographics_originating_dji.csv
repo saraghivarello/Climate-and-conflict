@@ -1,0 +1,450 @@
+Year,Country of Origin Code,Country of Asylum Code,Country of Origin Name,Country of Asylum Name,Population Type,location,urbanRural,accommodationType,Female 0-4,Female 5-11,Female 12-17,Female 18-59,Female 60 or more,Female Unknown,Female Total,Male 0-4,Male 5-11,Male 12-17,Male 18-59,Male 60 or more,Male Unknown,Male Total,Total
+#date+year,#country+code+origin,#country+code+asylum,#country+name+origin,#country+name+asylum,#indicator+population_type,,,,#affected+f+infants+age_0_4,#affected+f+children+age_5_11,#affected+f+adolescents+age_12_17,#affected+f+adults+age_18_59,#affected+f+elderly+age_60,#affected+f+unknown_age,#affected+f+total,#affected+m+infants+age_0_4,#affected+m+children+age_5_11,#affected+m+adolescents+age_12_17,#affected+m+adults+age_18_59,#affected+m+elderly+age_60,#affected+m+unknown_age,#affected+m+total,#affected+all+total
+2001,DJI,EGY,Djibouti,Egypt,ASY,Cairo,U,U,0,0,0,0,0,5,5,0,0,0,0,0,6,6,11
+2001,DJI,EGY,Djibouti,Egypt,REF,Cairo,U,U,0,0,0,0,0,0,0,0,0,0,7,0,0,7,7
+2001,DJI,AUS,Djibouti,Australia,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7
+2001,DJI,CAN,Djibouti,Canada,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,148
+2001,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,301
+2001,DJI,DJI,Djibouti,Djibouti,RET,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,458
+2001,DJI,ETH,Djibouti,Ethiopia,REF,Addis Ababa,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60
+2001,DJI,FRA,Djibouti,France,REF,Dispersed in the country / territory,R,U,0,0,0,0,0,18,18,0,0,0,0,0,26,26,44
+2001,DJI,JOR,Djibouti,Jordan,ASY,Amman,U,U,0,0,0,0,0,0,0,0,5,0,0,0,0,5,5
+2001,DJI,NLD,Djibouti,Netherlands,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2001,DJI,NZL,Djibouti,New Zealand,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17
+2001,DJI,SWE,Djibouti,Sweden,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10
+2001,DJI,USA,Djibouti,United States of America,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2001,DJI,YEM,Djibouti,Yemen,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12
+2002,DJI,EGY,Djibouti,Egypt,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13
+2002,DJI,EGY,Djibouti,Egypt,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7
+2002,DJI,AUS,Djibouti,Australia,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7
+2002,DJI,BEL,Djibouti,Belgium,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8
+2002,DJI,CAN,Djibouti,Canada,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,94
+2002,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,312
+2002,DJI,ETH,Djibouti,Ethiopia,REF,Dispersed in the country / territory,U,U,0,5,0,20,0,0,25,0,0,6,24,0,0,30,55
+2002,DJI,FRA,Djibouti,France,REF,Dispersed in the country / territory,R,U,0,0,0,0,0,18,18,0,0,0,0,0,24,24,42
+2002,DJI,DEU,Djibouti,Germany,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2002,DJI,DEU,Djibouti,Germany,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7
+2002,DJI,NLD,Djibouti,Netherlands,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2002,DJI,NZL,Djibouti,New Zealand,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17
+2002,DJI,SWE,Djibouti,Sweden,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10
+2003,DJI,EGY,Djibouti,Egypt,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10
+2003,DJI,EGY,Djibouti,Egypt,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7
+2003,DJI,AUS,Djibouti,Australia,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12
+2003,DJI,BEL,Djibouti,Belgium,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9
+2003,DJI,BEL,Djibouti,Belgium,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24
+2003,DJI,CAN,Djibouti,Canada,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46
+2003,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,318
+2003,DJI,ETH,Djibouti,Ethiopia,REF,Addis Ababa,U,U,0,5,6,19,0,0,30,0,7,7,18,0,0,32,62
+2003,DJI,FRA,Djibouti,France,REF,Dispersed in the country / territory,R,U,0,0,0,0,0,21,21,0,0,0,0,0,27,27,48
+2003,DJI,DEU,Djibouti,Germany,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9
+2003,DJI,NLD,Djibouti,Netherlands,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2003,DJI,NLD,Djibouti,Netherlands,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2003,DJI,NZL,Djibouti,New Zealand,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17
+2003,DJI,SWE,Djibouti,Sweden,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9
+2003,DJI,USA,Djibouti,United States of America,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9
+2004,DJI,EGY,Djibouti,Egypt,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7
+2004,DJI,AUS,Djibouti,Australia,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7
+2004,DJI,BEL,Djibouti,Belgium,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11
+2004,DJI,BEL,Djibouti,Belgium,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58
+2004,DJI,CAN,Djibouti,Canada,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18
+2004,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,261
+2004,DJI,ETH,Djibouti,Ethiopia,REF,Addis Ababa,U,U,8,0,0,17,0,0,25,7,0,0,26,0,0,33,58
+2004,DJI,FRA,Djibouti,France,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56
+2004,DJI,DEU,Djibouti,Germany,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6
+2004,DJI,NLD,Djibouti,Netherlands,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7
+2004,DJI,NLD,Djibouti,Netherlands,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2004,DJI,NZL,Djibouti,New Zealand,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17
+2004,DJI,SWE,Djibouti,Sweden,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9
+2004,DJI,USA,Djibouti,United States of America,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8
+2005,DJI,EGY,Djibouti,Egypt,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2005,DJI,AUS,Djibouti,Australia,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6
+2005,DJI,BEL,Djibouti,Belgium,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,203
+2005,DJI,BEL,Djibouti,Belgium,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,92
+2005,DJI,CAN,Djibouti,Canada,ASY,Dispersed in the country / territory,U,U,0,0,0,0,0,0,0,0,0,0,7,0,0,7,7
+2005,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,195
+2005,DJI,ETH,Djibouti,Ethiopia,REF,Addis Ababa,U,U,7,0,0,14,0,0,21,9,0,0,21,0,0,30,51
+2005,DJI,FRA,Djibouti,France,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,29,29,0,0,0,0,0,29,29,58
+2005,DJI,NLD,Djibouti,Netherlands,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12
+2005,DJI,NZL,Djibouti,New Zealand,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49
+2005,DJI,ROU,Djibouti,Romania,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2005,DJI,SWE,Djibouti,Sweden,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9
+2005,DJI,USA,Djibouti,United States of America,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21
+2006,DJI,EGY,Djibouti,Egypt,REF,Cairo,U,U,0,0,0,0,0,0,0,0,0,0,6,0,0,6,6
+2006,DJI,AUS,Djibouti,Australia,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2006,DJI,BEL,Djibouti,Belgium,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,93
+2006,DJI,BEL,Djibouti,Belgium,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,42,42,0,0,0,0,0,43,43,85
+2006,DJI,CAN,Djibouti,Canada,ASY,Dispersed in the country / territory,U,U,0,0,0,0,0,8,8,0,0,0,0,0,5,5,13
+2006,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,163
+2006,DJI,ETH,Djibouti,Ethiopia,REF,Addis Ababa,U,U,0,7,0,14,0,0,21,9,0,0,21,0,0,30,51
+2006,DJI,FRA,Djibouti,France,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,32,32,0,0,0,0,0,33,33,65
+2006,DJI,DEU,Djibouti,Germany,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2006,DJI,NLD,Djibouti,Netherlands,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12
+2006,DJI,NZL,Djibouti,New Zealand,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32
+2006,DJI,SWE,Djibouti,Sweden,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8
+2006,DJI,USA,Djibouti,United States of America,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,47
+2007,DJI,EGY,Djibouti,Egypt,REF,Cairo,U,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2007,DJI,BEL,Djibouti,Belgium,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,26,26,0,0,0,0,0,33,33,59
+2007,DJI,CAN,Djibouti,Canada,ASY,Dispersed in the country / territory,U,U,5,0,0,13,0,0,18,0,9,0,0,0,0,9,27
+2007,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,431
+2007,DJI,ETH,Djibouti,Ethiopia,REF,Addis Ababa,U,U,0,7,0,10,5,0,22,11,0,0,22,0,0,33,55
+2007,DJI,FRA,Djibouti,France,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,33,33,0,0,0,0,0,36,36,69
+2007,DJI,DEU,Djibouti,Germany,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2007,DJI,NLD,Djibouti,Netherlands,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11
+2007,DJI,SWE,Djibouti,Sweden,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2007,DJI,USA,Djibouti,United States of America,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2008,DJI,EGY,Djibouti,Egypt,REF,Cairo,U,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2008,DJI,BEL,Djibouti,Belgium,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,23,23,0,0,0,0,0,27,27,50
+2008,DJI,CAN,Djibouti,Canada,ASY,Dispersed in the country / territory,U,U,7,9,0,19,0,0,35,0,8,6,6,0,0,20,55
+2008,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,429
+2008,DJI,ETH,Djibouti,Ethiopia,REF,Addis Ababa,U,U,0,8,0,13,0,0,21,5,5,0,21,0,0,31,52
+2008,DJI,FRA,Djibouti,France,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,40,40,0,0,0,0,0,39,39,79
+2008,DJI,DEU,Djibouti,Germany,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6
+2008,DJI,NLD,Djibouti,Netherlands,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11
+2008,DJI,USA,Djibouti,United States of America,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6
+2009,DJI,EGY,Djibouti,Egypt,REF,Cairo,U,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2009,DJI,BEL,Djibouti,Belgium,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,26,26,0,0,0,0,0,33,33,59
+2009,DJI,CAN,Djibouti,Canada,ASY,Canada,U,U,11,16,7,39,0,0,73,13,11,8,25,0,0,57,130
+2009,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,364
+2009,DJI,ETH,Djibouti,Ethiopia,ASY,Addis Ababa,C,U,0,7,0,0,0,0,7,0,0,0,7,0,0,7,14
+2009,DJI,ETH,Djibouti,Ethiopia,REF,Addis Ababa,U,U,0,5,6,16,0,0,27,6,6,0,25,0,0,37,64
+2009,DJI,FRA,Djibouti,France,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84
+2009,DJI,DEU,Djibouti,Germany,REF,Dispersed in the country / territory,V,U,0,0,0,6,0,0,6,0,0,0,0,0,0,0,6
+2009,DJI,NLD,Djibouti,Netherlands,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11
+2009,DJI,POL,Djibouti,Poland,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2009,DJI,SWE,Djibouti,Sweden,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2009,DJI,USA,Djibouti,United States of America,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2009,DJI,USA,Djibouti,United States of America,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20
+2010,DJI,EGY,Djibouti,Egypt,REF,Cairo : Point,U,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2010,DJI,BEL,Djibouti,Belgium,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,32,32,0,0,0,0,0,36,36,68
+2010,DJI,CAN,Djibouti,Canada,ASY,Dispersed in the country / territory,U,U,23,9,9,61,8,0,110,25,14,9,30,5,0,83,193
+2010,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275
+2010,DJI,ETH,Djibouti,Ethiopia,ASY,Addis Ababa Urban : Point,U,U,0,5,0,0,0,0,5,0,0,0,5,0,0,5,10
+2010,DJI,ETH,Djibouti,Ethiopia,REF,Addis Ababa Urban : Point,U,U,0,9,0,13,5,0,27,5,8,0,22,0,0,35,62
+2010,DJI,FRA,Djibouti,France,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,47,47,0,0,0,0,0,47,47,94
+2010,DJI,DEU,Djibouti,Germany,REF,Dispersed in the country / territory,V,U,0,5,0,0,0,0,5,0,0,0,0,0,0,0,5
+2010,DJI,NLD,Djibouti,Netherlands,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11
+2010,DJI,SWE,Djibouti,Sweden,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2010,DJI,USA,Djibouti,United States of America,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18
+2010,DJI,USA,Djibouti,United States of America,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36
+2011,DJI,EGY,Djibouti,Egypt,REF,Cairo : Point,U,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2011,DJI,BEL,Djibouti,Belgium,ASY,Dispersed in the country / territory,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41
+2011,DJI,BEL,Djibouti,Belgium,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,41,41,0,0,0,0,0,43,43,84
+2011,DJI,CAN,Djibouti,Canada,ASY,Dispersed in the country / territory,U,U,26,12,13,70,9,0,130,20,15,9,30,5,0,79,209
+2011,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,U,U,12,10,7,34,0,0,63,8,9,8,19,0,0,44,107
+2011,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,139
+2011,DJI,ETH,Djibouti,Ethiopia,REF,Addis Ababa Urban : Point,U,U,0,8,5,16,0,0,29,5,12,0,24,0,0,41,70
+2011,DJI,FRA,Djibouti,France,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,49,49,0,0,0,0,0,48,48,97
+2011,DJI,DEU,Djibouti,Germany,REF,Dispersed in the country / territory,V,U,0,5,0,0,0,0,5,0,0,0,0,0,0,0,5
+2011,DJI,KEN,Djibouti,Kenya,REF,Nairobi : District,U,U,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2011,DJI,NLD,Djibouti,Netherlands,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10
+2011,DJI,SWE,Djibouti,Sweden,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2011,DJI,USA,Djibouti,United States of America,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20
+2011,DJI,USA,Djibouti,United States of America,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,73
+2012,DJI,EGY,Djibouti,Egypt,REF,Giza : Muhafazah - Governorate,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2012,DJI,AUT,Djibouti,Austria,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2012,DJI,BEL,Djibouti,Belgium,ASY,Dispersed in the country / territory,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,88
+2012,DJI,BEL,Djibouti,Belgium,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,42,42,0,0,0,0,0,52,52,94
+2012,DJI,CAN,Djibouti,Canada,ASY,Dispersed in the country / territory,U,U,10,8,5,48,5,0,76,16,14,6,33,0,0,69,145
+2012,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,U,U,18,10,6,39,7,0,80,11,6,6,14,0,0,37,117
+2012,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,116
+2012,DJI,ETH,Djibouti,Ethiopia,REF,Addis Ababa : Astedader akabibi - Chartered City,U,I,0,8,5,17,0,0,30,0,13,5,26,0,0,44,74
+2012,DJI,FRA,Djibouti,France,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,60,60,0,0,0,0,0,52,52,112
+2012,DJI,DEU,Djibouti,Germany,REF,Dispersed in the country / territory,U,I,0,5,0,0,0,0,5,0,0,0,0,0,0,0,5
+2012,DJI,NLD,Djibouti,Netherlands,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10
+2012,DJI,SWE,Djibouti,Sweden,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2012,DJI,CHE,Djibouti,Switzerland,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,5,5,0,0,0,0,0,0,0,5
+2012,DJI,USA,Djibouti,United States of America,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56
+2012,DJI,USA,Djibouti,United States of America,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,88
+2013,DJI,EGY,Djibouti,Egypt,ASY,Cairo : Muhafazah - Governorate,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2013,DJI,EGY,Djibouti,Egypt,REF,Cairo : Muhafazah - Governorate,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2013,DJI,BEL,Djibouti,Belgium,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,133
+2013,DJI,BEL,Djibouti,Belgium,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,46,46,0,0,0,0,0,57,57,103
+2013,DJI,BEL,Djibouti,Belgium,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10
+2013,DJI,CAN,Djibouti,Canada,ASY,Dispersed in the country / territory,U,U,6,5,6,36,5,0,58,10,13,10,23,0,0,56,114
+2013,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,U,U,6,0,6,25,0,0,37,0,8,6,12,0,0,26,63
+2013,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,226
+2013,DJI,ETH,Djibouti,Ethiopia,REF,Addis Ababa : Astedader akabibi - Chartered city,U,I,0,7,6,17,0,0,30,5,13,0,27,0,0,45,75
+2013,DJI,FRA,Djibouti,France,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35
+2013,DJI,FRA,Djibouti,France,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,68,68,0,0,0,0,0,54,54,122
+2013,DJI,DEU,Djibouti,Germany,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,7,0,0,7,7
+2013,DJI,KWT,Djibouti,Kuwait,ASY,Dispersed in the country / territory,U,I,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2013,DJI,NLD,Djibouti,Netherlands,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8
+2013,DJI,SWE,Djibouti,Sweden,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18
+2013,DJI,SWE,Djibouti,Sweden,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6
+2013,DJI,CHE,Djibouti,Switzerland,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,5,5,0,0,0,0,0,0,0,5
+2013,DJI,USA,Djibouti,United States of America,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,74
+2013,DJI,USA,Djibouti,United States of America,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,124
+2014,DJI,EGY,Djibouti,Egypt,ASY,Cairo : Muhafazah - Governorate,U,I,0,0,9,0,0,0,9,0,0,0,0,0,0,0,9
+2014,DJI,EGY,Djibouti,Egypt,REF,Cairo : Muhafazah - Governorate,U,I,0,0,0,0,0,0,0,0,0,6,0,0,0,6,6
+2014,DJI,AUS,Djibouti,Australia,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2014,DJI,BEL,Djibouti,Belgium,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,125
+2014,DJI,BEL,Djibouti,Belgium,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,146
+2014,DJI,CAN,Djibouti,Canada,ASY,Dispersed in the country / territory,U,U,0,0,9,5,0,0,14,0,0,5,10,0,0,15,29
+2014,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,U,U,12,6,5,40,5,0,68,10,10,7,26,0,0,53,121
+2014,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,189
+2014,DJI,ETH,Djibouti,Ethiopia,OOC,Addis Ababa : Astedader akabibi - Chartered city,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2014,DJI,ETH,Djibouti,Ethiopia,REF,Addis Ababa : Astedader akabibi - Chartered city,U,I,0,5,8,18,0,0,31,0,10,7,28,0,0,45,76
+2014,DJI,FRA,Djibouti,France,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80
+2014,DJI,FRA,Djibouti,France,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,78,78,0,0,0,0,0,58,58,136
+2014,DJI,GBR,Djibouti,United Kingdom of Great Britain and Northern Ireland,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2014,DJI,DEU,Djibouti,Germany,ASY,Dispersed in the country / territory,V,U,0,0,0,5,0,0,5,0,0,0,8,0,0,8,13
+2014,DJI,KWT,Djibouti,Kuwait,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2014,DJI,NLD,Djibouti,Netherlands,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8
+2014,DJI,NOR,Djibouti,Norway,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7
+2014,DJI,SWE,Djibouti,Sweden,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24
+2014,DJI,SWE,Djibouti,Sweden,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8
+2014,DJI,CHE,Djibouti,Switzerland,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,0,0,0,0,0,0,0,5,5,5
+2014,DJI,TUR,Djibouti,Türkiye,ASY,Manisa,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2014,DJI,USA,Djibouti,United States of America,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,110
+2014,DJI,USA,Djibouti,United States of America,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,165
+2014,DJI,YEM,Djibouti,Yemen,ASY,Sana'a : Point,U,I,0,7,0,0,0,0,7,0,0,0,0,0,0,0,7
+2015,DJI,EGY,Djibouti,Egypt,ASY,Cairo : Muhafazah - Governorate,U,I,0,0,0,7,0,0,7,0,0,0,7,0,0,7,14
+2015,DJI,EGY,Djibouti,Egypt,REF,Cairo : Muhafazah - Governorate,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2015,DJI,AUS,Djibouti,Australia,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2015,DJI,AUS,Djibouti,Australia,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2015,DJI,BEL,Djibouti,Belgium,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,92
+2015,DJI,BEL,Djibouti,Belgium,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,125,125,0,0,0,0,0,103,103,228
+2015,DJI,CAN,Djibouti,Canada,ASY,Dispersed in the country / territory,U,U,0,9,0,16,0,0,25,0,8,0,12,0,0,20,45
+2015,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,350
+2015,DJI,ETH,Djibouti,Ethiopia,REF,Addis Ababa : Astedader akabibi - Chartered city,U,I,0,5,8,18,0,0,31,0,10,7,28,0,0,45,76
+2015,DJI,FRA,Djibouti,France,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,155
+2015,DJI,FRA,Djibouti,France,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,90,90,0,0,0,0,0,59,59,149
+2015,DJI,GBR,Djibouti,United Kingdom of Great Britain and Northern Ireland,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2015,DJI,DEU,Djibouti,Germany,ASY,Dispersed in the country / territory,V,U,0,0,0,15,0,0,15,0,5,0,9,0,0,14,29
+2015,DJI,KWT,Djibouti,Kuwait,ASY,kUWAIT,U,I,0,0,0,0,5,0,5,0,0,0,0,0,0,0,5
+2015,DJI,SOM,Djibouti,Somalia,ASY,Hargeisa : District,U,I,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2015,DJI,SWE,Djibouti,Sweden,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44
+2015,DJI,SWE,Djibouti,Sweden,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9
+2015,DJI,CHE,Djibouti,Switzerland,ASY,Dispersed in the country / territory,U,U,0,0,0,0,0,8,8,0,0,0,0,0,0,0,8
+2015,DJI,CHE,Djibouti,Switzerland,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,0,0,0,0,0,8,0,0,8,8
+2015,DJI,TUR,Djibouti,Türkiye,ASY,Manisa : Province,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2015,DJI,USA,Djibouti,United States of America,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,126
+2015,DJI,USA,Djibouti,United States of America,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,224
+2015,DJI,YEM,Djibouti,Yemen,ASY,SanaΓÇÖa: Muhafazah ΓÇô Governorate,U,I,0,9,0,0,0,0,9,0,0,0,0,0,0,0,9
+2016,DJI,EGY,Djibouti,Egypt,ASY,Cairo : Muhafazah - Governorate,U,I,0,0,0,7,0,0,7,0,0,0,7,0,0,7,14
+2016,DJI,EGY,Djibouti,Egypt,REF,Cairo : Muhafazah - Governorate,U,I,0,0,0,0,0,0,0,0,0,0,6,0,0,6,6
+2016,DJI,AUS,Djibouti,Australia,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2016,DJI,AUS,Djibouti,Australia,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2016,DJI,BEL,Djibouti,Belgium,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,118
+2016,DJI,BEL,Djibouti,Belgium,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,139,139,0,0,0,0,0,128,128,267
+2016,DJI,CAN,Djibouti,Canada,ASY,Canada,V,U,0,0,0,41,0,0,41,0,0,0,49,0,0,49,90
+2016,DJI,CAN,Djibouti,Canada,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,69
+2016,DJI,CAN,Djibouti,Canada,REF,Canada,V,U,0,0,6,31,0,0,37,0,5,9,38,0,0,52,89
+2016,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,498
+2016,DJI,ETH,Djibouti,Ethiopia,REF,Addis Ababa : Astedader akabibi - Chartered city,U,I,0,5,8,17,0,0,30,0,9,8,29,0,0,46,76
+2016,DJI,ETH,Djibouti,Ethiopia,REF,Asaita : Point,R,P,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2016,DJI,FRA,Djibouti,France,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,137
+2016,DJI,FRA,Djibouti,France,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,125,125,0,0,0,0,0,69,69,194
+2016,DJI,GBR,Djibouti,United Kingdom of Great Britain and Northern Ireland,ASY,Dispersed in the country / territory,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7
+2016,DJI,GBR,Djibouti,United Kingdom of Great Britain and Northern Ireland,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2016,DJI,DEU,Djibouti,Germany,ASY,Dispersed in the country / territory,V,U,0,0,0,18,0,0,18,0,0,0,20,0,0,20,38
+2016,DJI,DEU,Djibouti,Germany,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,5,0,0,0,0,5,5
+2016,DJI,KWT,Djibouti,Kuwait,ASY,kUWAIT,U,I,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2016,DJI,NOR,Djibouti,Norway,ASY,Dispersed in the country / territory,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2016,DJI,SOM,Djibouti,Somalia,ASY,Woqooyi Galbeed : Gobolka - Region,U,I,0,0,0,6,0,0,6,0,0,0,5,0,0,5,11
+2016,DJI,SWE,Djibouti,Sweden,ASY,Dispersed in the country / territory,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,47
+2016,DJI,SWE,Djibouti,Sweden,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20
+2016,DJI,CHE,Djibouti,Switzerland,ASY,Dispersed in the country / territory,U,U,0,0,0,0,0,0,0,0,0,0,6,0,0,6,6
+2016,DJI,CHE,Djibouti,Switzerland,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,6,6,0,0,0,0,0,6,6,12
+2016,DJI,TUR,Djibouti,Türkiye,ASY,Konya : Province,U,I,0,0,0,6,0,0,6,0,0,0,0,0,0,0,6
+2016,DJI,USA,Djibouti,United States of America,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,268
+2016,DJI,USA,Djibouti,United States of America,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,250
+2016,DJI,YEM,Djibouti,Yemen,ASY,Amanat Al Asimah: Muhafazah - Governorate,U,I,0,5,0,0,0,0,5,0,0,0,0,0,0,0,5
+2016,DJI,YEM,Djibouti,Yemen,REF,Amanat Al Asimah: Muhafazah - Governorate,U,I,0,0,0,0,0,0,0,5,0,0,0,0,0,5,5
+2017,DJI,EGY,Djibouti,Egypt,ASY,Cairo : Muhafazah - Governorate,U,I,0,0,5,0,0,0,5,0,0,0,8,0,0,8,13
+2017,DJI,EGY,Djibouti,Egypt,REF,Cairo : Muhafazah - Governorate,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2017,DJI,AUS,Djibouti,Australia,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2017,DJI,AUS,Djibouti,Australia,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2017,DJI,BEL,Djibouti,Belgium,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,105
+2017,DJI,BEL,Djibouti,Belgium,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,267
+2017,DJI,BRA,Djibouti,Brazil,ASY,Dispersed in the country / territory,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2017,DJI,CAN,Djibouti,Canada,ASY,Dispersed in the country / territory,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,477
+2017,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,801
+2017,DJI,ETH,Djibouti,Ethiopia,ASY,Addis Ababa : Astedader akabibi - Chartered city,U,I,0,8,0,0,0,0,8,0,0,0,0,0,0,0,8
+2017,DJI,ETH,Djibouti,Ethiopia,REF,Addis Ababa : Astedader akabibi - Chartered city,U,I,0,5,8,19,0,0,32,0,9,8,27,0,0,44,76
+2017,DJI,FRA,Djibouti,France,ASY,Dispersed in the country / territory,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46
+2017,DJI,FRA,Djibouti,France,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,161,161,0,0,0,0,0,95,95,256
+2017,DJI,GBR,Djibouti,United Kingdom of Great Britain and Northern Ireland,ASY,Dispersed in the country / territory,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2017,DJI,GBR,Djibouti,United Kingdom of Great Britain and Northern Ireland,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2017,DJI,DEU,Djibouti,Germany,ASY,Dispersed in the country / territory,V,U,0,0,0,6,5,0,11,0,0,0,7,0,0,7,18
+2017,DJI,DEU,Djibouti,Germany,REF,Dispersed in the country / territory,V,U,5,0,0,11,0,0,16,0,0,0,8,0,0,8,24
+2017,DJI,KWT,Djibouti,Kuwait,ASY,Dispersed in the country / territory,U,I,0,0,0,0,5,0,5,0,0,0,0,0,0,0,5
+2017,DJI,SOM,Djibouti,Somalia,ASY,Woqooyi Galbeed : Gobolka - Region,U,I,0,0,0,6,0,0,6,0,0,0,7,0,0,7,13
+2017,DJI,SWE,Djibouti,Sweden,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33
+2017,DJI,SWE,Djibouti,Sweden,REF,Dispersed in the country / territory,V,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21
+2017,DJI,CHE,Djibouti,Switzerland,ASY,Dispersed in the country / territory,U,U,0,0,0,0,0,0,0,0,0,0,7,0,0,7,7
+2017,DJI,CHE,Djibouti,Switzerland,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,8,8,0,0,0,0,0,6,6,14
+2017,DJI,TUR,Djibouti,Türkiye,ASY,Isparta : Province,U,I,0,0,0,6,0,0,6,0,0,0,0,0,0,0,6
+2017,DJI,USA,Djibouti,United States of America,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,535
+2017,DJI,USA,Djibouti,United States of America,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,282
+2017,DJI,YEM,Djibouti,Yemen,ASY,Amanat Al Asimah: Muhafazah - Governorate,U,I,0,5,0,0,0,0,5,0,0,0,0,0,0,0,5
+2017,DJI,YEM,Djibouti,Yemen,REF,Amanat Al Asimah: Muhafazah - Governorate,U,I,0,0,0,0,0,0,0,0,5,0,0,0,0,5,5
+2018,DJI,EGY,Djibouti,Egypt,ASY,Giza : Muhafazah - Governorate,U,I,0,0,0,5,0,0,5,0,0,0,5,0,0,5,10
+2018,DJI,EGY,Djibouti,Egypt,REF,Cairo : Muhafazah - Governorate,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2018,DJI,AUS,Djibouti,Australia,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2018,DJI,BEL,Djibouti,Belgium,ASY,Dispersed in the country / territory,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80
+2018,DJI,BEL,Djibouti,Belgium,REF,Dispersed in the country / territory,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,267
+2018,DJI,BRA,Djibouti,Brazil,ASY,Dispersed in the country / territory,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11
+2018,DJI,CAN,Djibouti,Canada,ASY,Dispersed in the country / territory,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,291
+2018,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,U,I,8,14,9,38,5,0,74,0,14,6,33,0,0,53,127
+2018,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21
+2018,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,935
+2018,DJI,ETH,Djibouti,Ethiopia,ASY,Addis Ababa : Astedader akabibi - Chartered city,U,I,0,8,0,0,0,0,8,0,0,0,0,0,0,0,8
+2018,DJI,ETH,Djibouti,Ethiopia,REF,Addis Ababa : Astedader akabibi - Chartered city,U,I,0,5,7,20,0,0,32,0,7,12,28,0,0,47,79
+2018,DJI,FRA,Djibouti,France,ASY,Dispersed in the country / territory,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56
+2018,DJI,FRA,Djibouti,France,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,192,192,0,0,0,0,0,116,116,308
+2018,DJI,GBR,Djibouti,United Kingdom of Great Britain and Northern Ireland,ASY,Dispersed in the country / territory,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2018,DJI,GBR,Djibouti,United Kingdom of Great Britain and Northern Ireland,REF,Dispersed in the country / territory,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2018,DJI,DEU,Djibouti,Germany,ASY,Dispersed in the country / territory,V,U,0,0,0,13,0,0,13,0,0,0,7,0,0,7,20
+2018,DJI,DEU,Djibouti,Germany,REF,Dispersed in the country / territory,V,U,5,0,0,16,0,0,21,0,5,0,7,0,0,12,33
+2018,DJI,GRC,Djibouti,Greece,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2018,DJI,KWT,Djibouti,Kuwait,ASY,Kuwait City,U,I,0,0,0,0,5,0,5,0,0,0,0,0,0,0,5
+2018,DJI,SOM,Djibouti,Somalia,ASY,Woqooyi Galbeed : Gobolka - Region,U,I,0,0,0,6,0,0,6,0,0,0,6,0,0,6,12
+2018,DJI,SWE,Djibouti,Sweden,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28
+2018,DJI,SWE,Djibouti,Sweden,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22
+2018,DJI,CHE,Djibouti,Switzerland,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,6,6,0,0,0,0,0,9,9,15
+2018,DJI,TUR,Djibouti,Türkiye,ASY,Burdur : Province,U,I,0,0,0,6,0,0,6,0,0,0,0,0,0,0,6
+2018,DJI,TUR,Djibouti,Türkiye,ASY,Isparta : Province,U,I,0,0,0,8,0,0,8,0,0,0,13,0,0,13,21
+2018,DJI,TUR,Djibouti,Türkiye,ASY,Yozgat : Province,U,I,5,0,0,0,0,0,5,0,0,0,7,0,0,7,12
+2018,DJI,USA,Djibouti,United States of America,ASY,Dispersed in the country / territory,V,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,525
+2018,DJI,USA,Djibouti,United States of America,REF,Dispersed in the country / territory,V,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,302
+2018,DJI,YEM,Djibouti,Yemen,ASY,Amanat Al Asimah: Muhafazah - Governorate,U,I,0,5,0,0,0,0,5,0,0,0,0,0,0,0,5
+2019,DJI,EGY,Djibouti,Egypt,ASY,Giza : Muhafazah - Governorate,U,I,0,0,0,0,0,0,0,0,0,0,9,0,0,9,9
+2019,DJI,EGY,Djibouti,Egypt,REF,Cairo : Muhafazah - Governorate,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2019,DJI,EGY,Djibouti,Egypt,REF,Giza : Muhafazah - Governorate,U,I,0,0,0,0,0,0,0,0,0,0,7,0,0,7,7
+2019,DJI,AUS,Djibouti,Australia,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2019,DJI,BEL,Djibouti,Belgium,ASY,Dispersed in the country / territory,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,68
+2019,DJI,BEL,Djibouti,Belgium,REF,Dispersed in the country / territory,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,369
+2019,DJI,BRA,Djibouti,Brazil,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11
+2019,DJI,CAN,Djibouti,Canada,ASY,Dispersed in the country / territory,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,159
+2019,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1130
+2019,DJI,ETH,Djibouti,Ethiopia,REF,Addis Ababa : Astedader akabibi - Chartered city,U,I,0,7,5,14,0,0,26,0,5,8,10,0,0,23,49
+2019,DJI,FRA,Djibouti,France,ASY,Dispersed in the country / territory,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26
+2019,DJI,FRA,Djibouti,France,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,210,210,0,0,0,0,0,132,132,342
+2019,DJI,GBR,Djibouti,United Kingdom of Great Britain and Northern Ireland,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2019,DJI,DEU,Djibouti,Germany,ASY,Dispersed in the country / territory,V,U,0,0,0,5,0,0,5,0,0,0,8,0,0,8,13
+2019,DJI,DEU,Djibouti,Germany,REF,Dispersed in the country / territory,V,U,5,0,0,15,0,0,20,0,5,0,8,0,0,13,33
+2019,DJI,GRC,Djibouti,Greece,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,6,6,0,0,0,0,0,6,6,12
+2019,DJI,GRC,Djibouti,Greece,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2019,DJI,KWT,Djibouti,Kuwait,ASY,Kuwait City,U,I,0,0,0,0,5,0,5,0,0,0,0,0,0,0,5
+2019,DJI,NOR,Djibouti,Norway,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2019,DJI,SOM,Djibouti,Somalia,ASY,Woqooyi Galbeed : Gobolka - Region,U,I,0,0,0,8,0,0,8,0,0,0,6,0,0,6,14
+2019,DJI,ESP,Djibouti,Spain,ASY,Dispersed in the country / territory,U,I,0,0,0,0,0,0,0,0,0,0,0,0,5,5,5
+2019,DJI,SWE,Djibouti,Sweden,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,16,16,0,0,0,0,0,17,17,33
+2019,DJI,SWE,Djibouti,Sweden,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23
+2019,DJI,CHE,Djibouti,Switzerland,ASY,Dispersed in the country / territory,V,C,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2019,DJI,CHE,Djibouti,Switzerland,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16
+2019,DJI,USA,Djibouti,United States of America,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,468
+2019,DJI,USA,Djibouti,United States of America,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,352
+2019,DJI,YEM,Djibouti,Yemen,ASY,Amanat Al Asimah: Muhafazah - Governorate,U,I,0,6,0,0,0,0,6,0,0,0,0,0,0,0,6
+2019,DJI,YEM,Djibouti,Yemen,REF,Amanat Al Asimah: Muhafazah - Governorate,U,I,0,0,0,0,0,0,0,0,5,0,0,0,0,5,5
+2020,DJI,EGY,Djibouti,Egypt,ASY,Giza : Muhafazah - Governorate,U,I,0,8,0,0,0,0,8,0,0,0,8,0,0,8,16
+2020,DJI,EGY,Djibouti,Egypt,REF,Cairo : Muhafazah - Governorate,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2020,DJI,EGY,Djibouti,Egypt,REF,Giza : Muhafazah - Governorate,U,I,0,0,0,0,0,0,0,0,0,0,8,0,0,8,8
+2020,DJI,AUS,Djibouti,Australia,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2020,DJI,BEL,Djibouti,Belgium,ASY,Dispersed in the country / territory,V,C,0,0,0,0,0,35,35,0,0,0,0,0,30,30,65
+2020,DJI,BEL,Djibouti,Belgium,REF,Dispersed in the country / territory,V,I,0,0,0,0,0,203,203,0,0,0,0,0,170,170,373
+2020,DJI,BRA,Djibouti,Brazil,ASY,Dispersed in the country / territory,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11
+2020,DJI,CAN,Djibouti,Canada,ASY,Dispersed in the country / territory,U,I,0,0,0,0,0,38,38,0,0,0,28,0,15,43,81
+2020,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,U,I,0,0,0,14,0,0,14,0,10,0,29,0,0,39,53
+2020,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1103
+2020,DJI,DJI,Djibouti,Djibouti,HST,Djibouti : Point,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1301
+2020,DJI,ETH,Djibouti,Ethiopia,REF,Addis Ababa : Astedader akabibi - Chartered city,U,I,0,7,5,14,0,0,26,0,5,8,10,0,0,23,49
+2020,DJI,FRA,Djibouti,France,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,56,56,0,0,0,0,0,125,125,181
+2020,DJI,FRA,Djibouti,France,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,358
+2020,DJI,GBR,Djibouti,United Kingdom of Great Britain and Northern Ireland,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,5,5,5
+2020,DJI,GBR,Djibouti,United Kingdom of Great Britain and Northern Ireland,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2020,DJI,DEU,Djibouti,Germany,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,8,0,0,8,8
+2020,DJI,DEU,Djibouti,Germany,REF,Dispersed in the country / territory,V,U,0,5,0,15,0,0,20,0,0,5,8,0,0,13,33
+2020,DJI,GRC,Djibouti,Greece,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,5,5,5
+2020,DJI,GRC,Djibouti,Greece,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8
+2020,DJI,KWT,Djibouti,Kuwait,ASY,Kuwait City,U,I,0,0,0,0,5,0,5,0,0,0,0,0,0,0,5
+2020,DJI,NOR,Djibouti,Norway,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2020,DJI,SOM,Djibouti,Somalia,ASY,Woqooyi Galbeed : Gobolka - Region,U,I,0,0,0,6,0,0,6,0,0,0,0,0,0,0,6
+2020,DJI,ESP,Djibouti,Spain,ASY,Dispersed in the country / territory,U,I,0,0,0,0,0,0,0,0,0,0,0,0,5,5,5
+2020,DJI,SWE,Djibouti,Sweden,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,8,8,0,0,0,0,0,12,12,20
+2020,DJI,SWE,Djibouti,Sweden,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31
+2020,DJI,CHE,Djibouti,Switzerland,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17
+2020,DJI,USA,Djibouti,United States of America,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,469
+2020,DJI,USA,Djibouti,United States of America,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,361
+2020,DJI,YEM,Djibouti,Yemen,ASY,Amanat Al Asimah: Muhafazah - Governorate,U,I,0,0,6,0,0,0,6,0,0,0,0,0,0,0,6
+2020,DJI,YEM,Djibouti,Yemen,REF,Amanat Al Asimah: Muhafazah - Governorate,U,I,0,0,0,0,0,0,0,0,5,0,0,0,0,5,5
+2021,DJI,EGY,Djibouti,Egypt,ASY,Giza : Muhafazah - Governorate,U,I,0,5,0,0,0,0,5,0,0,0,6,0,0,6,11
+2021,DJI,EGY,Djibouti,Egypt,REF,Cairo : Muhafazah - Governorate,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2021,DJI,EGY,Djibouti,Egypt,REF,Giza : Muhafazah - Governorate,U,I,0,0,0,0,0,0,0,0,0,5,14,0,0,19,19
+2021,DJI,AUS,Djibouti,Australia,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2021,DJI,BEL,Djibouti,Belgium,ASY,Dispersed in the country / territory,V,C,0,0,0,0,0,35,35,0,0,0,0,0,25,25,60
+2021,DJI,BEL,Djibouti,Belgium,REF,Dispersed in the country / territory,V,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,383
+2021,DJI,BRA,Djibouti,Brazil,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11
+2021,DJI,CAN,Djibouti,Canada,ASY,Dispersed in the country / territory,U,I,0,0,0,12,5,0,17,0,0,5,14,0,0,19,36
+2021,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,U,I,6,10,0,31,0,0,47,0,11,6,53,0,0,70,117
+2021,DJI,CAN,Djibouti,Canada,REF,Dispersed in the country / territory,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1037
+2021,DJI,CYP,Djibouti,Cyprus,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9
+2021,DJI,DJI,Djibouti,Djibouti,HST,Djibouti : Point,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1301
+2021,DJI,ETH,Djibouti,Ethiopia,ASY,Addis Ababa : Astedader akabibi - Chartered city,U,I,0,0,0,0,0,0,0,0,5,0,0,0,0,5,5
+2021,DJI,ETH,Djibouti,Ethiopia,REF,Addis Ababa : Astedader akabibi - Chartered city,U,I,0,9,0,12,0,0,21,5,0,7,13,0,0,25,46
+2021,DJI,ETH,Djibouti,Ethiopia,REF,Asaita : Point,R,P,0,0,0,0,0,0,0,0,5,0,0,0,0,5,5
+2021,DJI,ETH,Djibouti,Ethiopia,REF,Bokolmanyo : Point,R,P,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2021,DJI,FRA,Djibouti,France,ASY,Dispersed in the country / territory,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,141
+2021,DJI,FRA,Djibouti,France,REF,Dispersed in the country / territory,U,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,518
+2021,DJI,GBR,Djibouti,United Kingdom of Great Britain and Northern Ireland,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2021,DJI,GBR,Djibouti,United Kingdom of Great Britain and Northern Ireland,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6
+2021,DJI,DEU,Djibouti,Germany,ASY,Dispersed in the country / territory,V,U,0,0,0,6,0,0,6,0,0,0,8,0,0,8,14
+2021,DJI,DEU,Djibouti,Germany,REF,Dispersed in the country / territory,V,U,0,6,0,18,0,0,24,0,0,5,9,0,0,14,38
+2021,DJI,GRC,Djibouti,Greece,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,8,8,8
+2021,DJI,GRC,Djibouti,Greece,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12
+2021,DJI,KWT,Djibouti,Kuwait,ASY,Kuwait City,U,I,0,0,0,0,5,0,5,0,0,0,0,0,0,0,5
+2021,DJI,POL,Djibouti,Poland,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,5,5,0,0,0,0,0,0,0,5
+2021,DJI,SOM,Djibouti,Somalia,ASY,Woqooyi Galbeed : Gobolka - Region,U,I,0,0,0,7,0,0,7,0,0,0,0,0,0,0,7
+2021,DJI,ESP,Djibouti,Spain,ASY,Dispersed in the country / territory,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2021,DJI,SWE,Djibouti,Sweden,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,9,9,0,0,0,0,0,8,8,17
+2021,DJI,SWE,Djibouti,Sweden,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30
+2021,DJI,CHE,Djibouti,Switzerland,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17
+2021,DJI,USA,Djibouti,United States of America,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,649
+2021,DJI,USA,Djibouti,United States of America,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,359
+2021,DJI,YEM,Djibouti,Yemen,ASY,Amanat Al Asimah: Muhafazah - Governorate,U,I,0,0,6,0,0,0,6,0,0,0,0,0,0,0,6
+2021,DJI,YEM,Djibouti,Yemen,REF,Amanat Al Asimah: Muhafazah - Governorate,U,I,0,0,0,0,0,0,0,0,5,0,0,0,0,5,5
+2022,DJI,EGY,Djibouti,Egypt,ASY,Cairo : Muhafazah - Governorate,U,I,0,0,0,0,0,0,0,0,0,8,0,0,0,8,8
+2022,DJI,EGY,Djibouti,Egypt,ASY,Giza : Muhafazah - Governorate,U,I,0,6,0,0,0,0,6,0,0,0,10,0,0,10,16
+2022,DJI,EGY,Djibouti,Egypt,REF,Cairo : Muhafazah - Governorate,U,I,0,0,0,0,0,0,0,0,0,0,8,0,0,8,8
+2022,DJI,EGY,Djibouti,Egypt,REF,Giza : Muhafazah - Governorate,U,I,0,0,0,0,0,0,0,0,0,0,15,0,0,15,15
+2022,DJI,BEL,Djibouti,Belgium,ASY,Dispersed in the country / territory,V,I,0,0,0,0,0,68,68,0,0,0,0,0,57,57,125
+2022,DJI,BEL,Djibouti,Belgium,REF,Dispersed in the country / territory,V,I,0,0,0,0,0,169,169,0,0,0,0,0,125,125,294
+2022,DJI,BRA,Djibouti,Brazil,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7
+2022,DJI,CAN,Djibouti,Canada,ASY,Dispersed in the country / territory,U,I,0,8,0,14,0,0,22,0,0,0,18,0,0,18,40
+2022,DJI,CAN,Djibouti,Canada,ASY,Dispersed in the country / territory,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16
+2022,DJI,CAN,Djibouti,Canada,REF,Alberta,U,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2022,DJI,CAN,Djibouti,Canada,REF,Ontario,U,I,0,7,5,31,5,0,48,0,0,10,36,0,0,46,94
+2022,DJI,CAN,Djibouti,Canada,REF,Quebec,U,I,0,9,0,32,0,0,41,0,0,0,43,0,0,43,84
+2022,DJI,CYP,Djibouti,Cyprus,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,7,7,0,0,0,0,0,5,5,12
+2022,DJI,DJI,Djibouti,Djibouti,HST,Djibouti : Point,U,C,0,0,0,640,0,0,640,0,0,0,0,0,0,0,640
+2022,DJI,ETH,Djibouti,Ethiopia,ASY,Addis Ababa : Astedader akabibi - Chartered city,U,I,0,0,0,0,0,0,0,0,5,0,0,0,0,5,5
+2022,DJI,ETH,Djibouti,Ethiopia,REF,Addis Ababa : Astedader akabibi - Chartered city,U,I,0,9,0,15,0,0,24,0,6,7,16,0,0,29,53
+2022,DJI,FRA,Djibouti,France,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,245
+2022,DJI,FRA,Djibouti,France,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,354,354,0,0,0,0,0,309,309,663
+2022,DJI,GBR,Djibouti,United Kingdom of Great Britain and Northern Ireland,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6
+2022,DJI,GBR,Djibouti,United Kingdom of Great Britain and Northern Ireland,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6
+2022,DJI,DEU,Djibouti,Germany,ASY,Dispersed in the country / territory,V,U,0,0,0,15,0,0,15,0,0,0,21,0,0,21,36
+2022,DJI,DEU,Djibouti,Germany,REF,Dispersed in the country / territory,V,U,6,0,0,12,0,0,18,6,0,0,5,0,0,11,29
+2022,DJI,GRC,Djibouti,Greece,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,5,5,0,0,0,0,0,9,9,14
+2022,DJI,GRC,Djibouti,Greece,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28
+2022,DJI,KWT,Djibouti,Kuwait,ASY,Kuwait City,U,I,0,0,0,0,5,0,5,0,0,0,0,0,0,0,5
+2022,DJI,SOM,Djibouti,Somalia,ASY,Woqooyi Galbeed : Gobolka - Region,U,I,0,0,0,7,0,0,7,0,0,0,0,0,0,0,7
+2022,DJI,ESP,Djibouti,Spain,ASY,Dispersed in the country / territory,U,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
+2022,DJI,SDN,Djibouti,Sudan,ASY,Kassala : Wilayat - State,V,I,0,0,0,0,0,0,0,0,5,0,0,0,0,5,5
+2022,DJI,SWE,Djibouti,Sweden,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,5,5,0,0,0,0,0,5,5,10
+2022,DJI,SWE,Djibouti,Sweden,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32
+2022,DJI,CHE,Djibouti,Switzerland,ASY,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2022,DJI,CHE,Djibouti,Switzerland,REF,Dispersed in the country / territory,V,U,0,5,0,0,0,0,5,0,0,0,0,0,0,0,5
+2022,DJI,CHE,Djibouti,Switzerland,REF,Dispersed in the country / territory,V,U,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13
+2022,DJI,USA,Djibouti,United States of America,ASY,Dispersed in the country / territory,V,I,0,0,0,12,0,0,12,0,5,0,20,0,0,25,37
+2022,DJI,USA,Djibouti,United States of America,ASY,Dispersed in the country / territory,V,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,567
+2022,DJI,USA,Djibouti,United States of America,ASY,Illinois,V,I,0,0,5,0,0,0,5,0,0,0,0,0,0,0,5
+2022,DJI,USA,Djibouti,United States of America,ASY,Maryland,V,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2022,DJI,USA,Djibouti,United States of America,REF,Dispersed in the country / territory,V,I,0,0,0,8,0,5,13,0,0,0,15,0,0,15,28
+2022,DJI,USA,Djibouti,United States of America,REF,Dispersed in the country / territory,V,I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,328
+2022,DJI,USA,Djibouti,United States of America,REF,Maryland,V,I,0,0,0,6,0,0,6,0,0,0,0,0,0,0,6
+2022,DJI,USA,Djibouti,United States of America,REF,New York,V,I,0,0,0,5,0,0,5,0,0,0,0,0,0,0,5
+2022,DJI,USA,Djibouti,United States of America,REF,Virginia,V,I,0,0,0,0,0,0,0,0,0,0,5,0,0,5,5
+2022,DJI,YEM,Djibouti,Yemen,ASY,Amanat Al Asimah: Muhafazah - Governorate,U,I,0,6,0,0,0,0,6,0,0,0,0,0,0,0,6
+2022,DJI,YEM,Djibouti,Yemen,REF,Amanat Al Asimah: Muhafazah - Governorate,U,I,0,0,0,0,0,0,0,0,5,0,0,0,0,5,5
