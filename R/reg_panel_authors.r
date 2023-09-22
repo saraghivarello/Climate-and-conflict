@@ -1,4 +1,4 @@
-setwd("C:/Users/PcLaptop/Documents/GitHub/Climate-and-conflict/R")
+setwd("/home/sara/Documenti/GitHub/Climate-and-conflict/R")
 library(pspatreg)
 library(spatialreg)
 library(spdep)
@@ -11,8 +11,11 @@ library(rgdal)
 library(car)
 library(haven)
 
-data1 <- haven::read_dta("C:/Users/PcLaptop/Documents/GitHub/Climate-and-conflict/AJAE_MaystadtEcker.dta") # nolint
-map_it <- st_read("som_adm_ocha_itos_20230308_shp/som_admbnda_adm1_ocha_20230308.shp") # nolint: line_length_linter.
+
+data1 <- haven::read_dta("/home/sara/Documenti/GitHub/Climate-and-conflict/AJAE_MaystadtEcker.dta") # nolint
+map_it <- st_read("/home/sara/Documenti/GitHub/Climate-and-conflict/Datasets/som_adm_ocha_itos_20230308_shp/som_admbnda_adm1_ocha_20230308.shp") # nolint: line_length_linter.
+#data1 <- haven::read_dta("C:/Users/PcLaptop/Documents/GitHub/Climate-and-conflict/AJAE_MaystadtEcker.dta") # nolint
+#map_it <- st_read("som_adm_ocha_itos_20230308_shp/som_admbnda_adm1_ocha_20230308.shp") # nolint: line_length_linter.
 adj_m <- read.csv("adj_som.csv", header = FALSE)
 adj_m <- adj_m[-1, -1]
 adj <- matrix(unlist(adj_m), nrow = 18, ncol = 18)

@@ -1,4 +1,6 @@
-setwd("C:/Users/PcLaptop/Documents/GitHub/Climate-and-conflict/R")
+#setwd("C:/Users/PcLaptop/Documents/GitHub/Climate-and-conflict/R")
+#setwd("/home/sara/R/x86_64-pc-linux-gnu-library/4.3warnings()")
+
 library(pspatreg)
 library(spatialreg)
 library(spdep)
@@ -10,19 +12,22 @@ library(splm)
 library(rgdal)
 library(car)
 
+
+
 data1 <- read.csv("df_with_dummies.csv")
 map_it <- st_read("som_adm_ocha_itos_20230308_shp/som_admbnda_adm1_ocha_20230308.shp") # nolint: line_length_linter.
 adj_m <- read.csv("adj_som.csv", header = FALSE)
 adj_m <- adj_m[-1, -1]
 adj <- matrix(unlist(adj_m), nrow = 18, ncol = 18)
 
-dist <- read.csv("dist_som.csv", header = FALSE)
-dist <- dist[-1, ]
-dist <- matrix(unlist(dist), nrow = 18, ncol = 18)
-dist <- apply(dist, 2, function(x) as.numeric(as.character(x)))
 
-inv_dist <- 100 / (as.matrix(dist)+0.0001)
-lwsp_inv <- spdep::mat2listw(inv_dist, style = "W")
+# dist <- read.csv("dist_som.csv", header = FALSE)
+# dist <- dist[-1, ]
+# dist <- matrix(unlist(dist), nrow = 18, ncol = 18)
+# dist <- apply(dist, 2, function(x) as.numeric(as.character(x)))
+
+# inv_dist <- 100 / (as.matrix(dist)+0.0001)
+# lwsp_inv <- spdep::mat2listw(inv_dist, style = "W")
 
 #data1 <- data1[data1$time <= 2010, ]
 map_it$ADM1_EN <- gsub(" ", "_", map_it$ADM1_EN)
@@ -39,7 +44,7 @@ splm_model <- spml(formlin,
                index=c("admin1","month"),
                listw = lwsp_it,
                model="within",
-               effect = "twoways",
+               effect = "individual",
                spatial.error="none", 
                lag=TRUE, 
                Hess = FALSE)
@@ -54,15 +59,6 @@ L_sar_REML <- pspatfit(formula = formlin,
                         index = c("admin1", "month"),
                         )
 
-L_sem_REML <- pspatfit(formlin,
-                        data = data1, 
-                        listw = lwsp_it,
-                        demean = TRUE,
-                        eff_demean = "twoways",
-                        method = "eigen",
-                        type = "sem", 
-                        index = c("admin1", "month")
-                        )
 
 lmh <- lm(formlin, data = data1) 
 lmh_d <- lm(formlin_d , data = data1)
