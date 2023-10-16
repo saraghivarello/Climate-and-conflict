@@ -13,7 +13,7 @@ library(rgdal)
 library(car)
 library(SDPDmod)
 
-data1 <- read.csv("csv/df_lag1_disp_pop.csv")
+data1 <- read.csv("csv/df_lag1_disp_pop_spei.csv")
 map_it <- st_read("Datasets/som_adm_ocha_itos_20230308_shp/som_admbnda_adm1_ocha_20230308.shp") # nolint: line_length_linter.
 adj_m <- read.csv("csv/adj_som.csv", header = FALSE)
 adj_m <- adj_m[-1, -1]
@@ -42,13 +42,33 @@ lwsp_inv <- spdep::mat2listw(W, style = "W")
 
 data1 <- data1[data1$time >= 2016, ]
 
-# map_it$ADM1_EN <- gsub(" ", "_", map_it$ADM1_EN)
-# unemp_it_sf <- st_as_sf(dplyr::left_join(data1, map_it, by = c("admin1" = "ADM1_EN"))) # nolint: line_length_linter.
+formlin <- conflicts_pro_capite ~ TA_lag1 + PA_lag1 + DL_lag1 + population_density + sum_disp
 
-formlin <- conflicts_pro_capite ~ TA_lag1 + PA_lag1 + DL_lag1 + sum_disp #+ population_density
-#formlin_d <- conflicts ~ TA + PA + DL + factor(admin1) + factor(month) #+ factor(admin1):factor(month)
+reg <- lm(formlin, data = data1)
 
-fixed <- plm(formlin, data = data1, model = "within", index = c("admin1","time"), effect = "twoways")
+fe <- plm(formlin, 
+              data = data1, 
+              model = "within", 
+              index = c("admin1","time"), 
+              effect = "twoways")
+
+re <- plm(formlin, 
+              data = data1, 
+              model = "random", 
+              index = c("admin1","time"), 
+              effect = "twoways")
+
+phtest(fe, re)
+
+sar_1 <- spml(formlin,
+               data = data1, 
+               index=c("admin1", "time"),
+               listw = lwsp_inv,
+               model="within",
+               effect = "twoways",
+               spatial.error="none", 
+               lag=TRUE, 
+               Hess = FALSE)
 
 sar <- pspatfit(formula = formlin,
                         data = data1, 
@@ -58,37 +78,6 @@ sar <- pspatfit(formula = formlin,
                         method = "eigen",
                         type = "sar",
                         index = c("admin1", "time"))
-
-
-sem <- pspatfit(formula = formlin,
-                        data = data1, 
-                        listw = lwsp_inv, 
-                        demean = TRUE,
-                        eff_demean = "twoways",
-                        method = "eigen",
-                        type = "sem",
-                        index = c("admin1", "time"))
-#summary(sar)
-
-slx <- pspatfit(formula = formlin,
-                        data = data1, 
-                        listw = lwsp_inv, 
-                        demean = TRUE,
-                        eff_demean = "twoways",
-                        method = "eigen",
-                        type = "slx",
-                        index = c("admin1", "time"))
-
-
-sdm <- pspatfit(formula = formlin,
-                        data = data1, 
-                        listw = lwsp_inv, 
-                        demean = TRUE,
-                        eff_demean = "twoways",
-                        method = "eigen",
-                        type = "sdm",
-                        index = c("admin1", "time"))
-                        
 
 
 sarar <- pspatfit(formula = formlin,
@@ -101,13 +90,3 @@ sarar <- pspatfit(formula = formlin,
                         index = c("admin1", "time"))
 
 
-sdem <- pspatfit(formula = formlin,
-                        data = data1, 
-                        listw = lwsp_inv, 
-                        demean = TRUE,
-                        eff_demean = "twoways",
-                        method = "eigen",
-                        type = "sdem",
-                        index = c("admin1", "time"))
-
-# summary(gns)
