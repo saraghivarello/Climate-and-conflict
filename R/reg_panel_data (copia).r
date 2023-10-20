@@ -42,7 +42,7 @@ lwsp_inv <- spdep::mat2listw(W, style = "W")
 
 data1 <- data1[data1$time >= 2016, ]
 
-formlin <- conflicts_pro_capite ~ TA_lag1 + PA_lag1 + DL_lag1 + population_density + sum_disp
+formlin <- conflicts ~ TA_lag1 + PA_lag1 + DL_lag1 + sum_disp
 
 reg <- lm(formlin, data = data1)
 
