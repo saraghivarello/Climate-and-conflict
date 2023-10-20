@@ -60,6 +60,15 @@ re <- plm(formlin,
 
 phtest(fe, re)
 
+sar <- pspatfit(formula = formlin,
+                        data = data1, 
+                        listw = lwsp_inv, 
+                        demean = TRUE,
+                        eff_demean = "twoways",
+                        method = "eigen",
+                        type = "sar",
+                        index = c("admin1", "time"))
+
 sar_1 <- spml(formlin,
                data = data1, 
                index=c("admin1", "time"),
@@ -69,15 +78,6 @@ sar_1 <- spml(formlin,
                spatial.error="none", 
                lag=TRUE, 
                Hess = FALSE)
-
-sar <- pspatfit(formula = formlin,
-                        data = data1, 
-                        listw = lwsp_inv, 
-                        demean = TRUE,
-                        eff_demean = "twoways",
-                        method = "eigen",
-                        type = "sar",
-                        index = c("admin1", "time"))
 
 
 sarar <- pspatfit(formula = formlin,
@@ -89,4 +89,28 @@ sarar <- pspatfit(formula = formlin,
                         type = "sarar",
                         index = c("admin1", "time"))
 
+sarar_1 <- spml(formlin,
+               data = data1, 
+               index=c("admin1", "time"),
+               listw = lwsp_inv,
+               model="within",
+               effect = "twoways",
+               spatial.error="b", 
+               lag=TRUE, 
+               method = "eigen", 
+               na.action = na.fail, 
+               quiet = TRUE, 
+               zero.policy = NULL,
+               control = list(), 
+               legacy = FALSE)
+
+
+sem <- pspatfit(formula = formlin,
+                        data = data1, 
+                        listw = lwsp_inv, 
+                        demean = TRUE,
+                        eff_demean = "twoways",
+                        method = "eigen",
+                        type = "sem",
+                        index = c("admin1", "time"))
 
