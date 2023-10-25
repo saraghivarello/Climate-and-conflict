@@ -13,7 +13,7 @@ library(rgdal)
 library(car)
 library(SDPDmod)
 
-data1 <- read.csv("csv/df_lag1_2016_n4_disp_pop.csv")
+data1 <- read.csv("csv/df_lag1_2016_n3_disp.csv")
 map_it <- st_read("Datasets/som_adm_ocha_itos_20230308_shp/som_admbnda_adm1_ocha_20230308.shp") # nolint: line_length_linter.
 adj_m <- read.csv("csv/adj_som.csv", header = FALSE)
 adj_m <- adj_m[-1, -1]
@@ -42,7 +42,7 @@ lwsp_inv <- spdep::mat2listw(W, style = "W")
 
 #data1 <- data1[data1$time >= 2016, ]
 
-formlin <- conflicts ~ TA_lag1 + PA_lag1 + DL_lag1 #+ sum_disp #+ population_density
+formlin <- conflicts ~ TA_lag1 + PA_lag1 + DL_lag1 + sum_disp #+ population_density
 
 reg <- lm(formlin, data = data1)
 
@@ -51,12 +51,13 @@ fe <- plm(formlin,
               model = "within", 
               index = c("admin1","time"), 
               effect = "twoways")
-logLik.plm <- function(object){
-  out <- -plm::nobs(object) * log(2 * var(object$residuals) * pi)/2 - deviance(object)/(2 * var(object$residuals))
+
+# logLik.plm <- function(object){
+#   out <- -plm::nobs(object) * log(2 * var(object$residuals) * pi)/2 - deviance(object)/(2 * var(object$residuals))
   
-  attr(out,"df") <- nobs(object) - object$df.residual
-  attr(out,"nobs") <- plm::nobs(object)
-  return(out)}
+#   attr(out,"df") <- nobs(object) - object$df.residual
+#   attr(out,"nobs") <- plm::nobs(object)
+#   return(out)})
 
 
 re <- plm(formlin, 
