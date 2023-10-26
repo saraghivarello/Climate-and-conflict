@@ -13,7 +13,7 @@ library(rgdal)
 library(car)
 library(SDPDmod)
 
-data1 <- read.csv("csv/df_lag1_2016_n3_disp.csv")
+data1 <- read.csv("csv/df_lag1_2016_n4_disp_pop.csv")
 map_it <- st_read("Datasets/som_adm_ocha_itos_20230308_shp/som_admbnda_adm1_ocha_20230308.shp") # nolint: line_length_linter.
 adj_m <- read.csv("csv/adj_som.csv", header = FALSE)
 adj_m <- adj_m[-1, -1]
@@ -40,9 +40,10 @@ W <- DistWMat(
 )
 lwsp_inv <- spdep::mat2listw(W, style = "W")
 
-#data1 <- data1[data1$time >= 2016, ]
+data1 <- data1[data1$time >= 2016, ]
+data1 <- data1[data1$time <= 2018, ]
 
-formlin <- conflicts ~ TA_lag1 + PA_lag1 + DL_lag1 + sum_disp #+ population_density
+formlin <- conflicts ~ sum_disp #+ population_density
 
 reg <- lm(formlin, data = data1)
 
