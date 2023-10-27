@@ -41,9 +41,9 @@ W <- DistWMat(
 lwsp_inv <- spdep::mat2listw(W, style = "W")
 
 data1 <- data1[data1$time >= 2016, ]
-data1 <- data1[data1$time <= 2018, ]
+#data1 <- data1[data1$time <= 2018, ]
 
-formlin <- conflicts ~ sum_disp #+ population_density
+formlin <- conflicts ~ TA_lag1 + PA_lag1 + DL_lag1 + sum_disp #+ population_density
 
 reg <- lm(formlin, data = data1)
 
@@ -87,6 +87,10 @@ sar_1 <- spml(formlin,
                spatial.error="none", 
                lag=TRUE, 
                Hess = FALSE)
+
+#compute r^2
+r2 <- function(sar_1) {   
+                        summary(sar_1)$r.squared}
 
 
 sarar <- pspatfit(formula = formlin,
