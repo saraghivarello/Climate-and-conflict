@@ -39,3 +39,6 @@ fe <- plm(mob_dist_tweet,
               effect = "twoways")
 
 summary(fe)
+
+#correlation test for daily deaths and daily cases
+cor.test(data1$daily_deaths, data1$SI)
