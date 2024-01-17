@@ -10,7 +10,7 @@ library(splm)
 library(rgdal)
 library(car)
 
-data_confl <- read.csv("/home/sara/Documenti/GitHub/Climate-and-conflict/df_flood.csv")
+data_confl <- read.csv("/home/sara/Documenti/GitHub/Climate-and-conflict/csv/df_flood.csv")
 
 
 form_lmh <- Disp_log ~ x + TA_lag2 + PA_lag2 + DL_lag2 + inv_distance + conflicts + gdp_mean_origin  + gdp_mean_destination + population_density_origin + population_density_destination #+ accessibility_to_cities_mean_origin + accessibility_to_cities_mean_destination#+ PA_lag3 + DL_lag3 + inv_distance

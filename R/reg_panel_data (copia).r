@@ -1,6 +1,6 @@
 #setwd("C:/Users/PcLaptop/Documents/GitHub/Climate-and-conflict/R")
 #setwd("/home/sara/R/x86_64-pc-linux-gnu-library/4.3warnings()")
-
+library(stargazer)
 library(pspatreg)
 library(spatialreg)
 library(spdep)
@@ -12,8 +12,10 @@ library(splm)
 library(rgdal)
 library(car)
 library(SDPDmod)
+library(xtable)
 
-data1 <- read.csv("csv/df_lag1_2016_n4_disp_pop.csv")
+#data1 <- read.csv("csv/df_lag1_2016_n4_disp_pop.csv")
+data1 <- read.csv("csv/df_lags_2016_n4_disp_d_pop_norm.csv")
 map_it <- st_read("Datasets/som_adm_ocha_itos_20230308_shp/som_admbnda_adm1_ocha_20230308.shp") # nolint: line_length_linter.
 adj_m <- read.csv("csv/adj_som.csv", header = FALSE)
 adj_m <- adj_m[-1, -1]
@@ -43,7 +45,7 @@ lwsp_inv <- spdep::mat2listw(W, style = "W")
 data1 <- data1[data1$time >= 2016, ]
 #data1 <- data1[data1$time <= 2018, ]
 
-formlin <- conflicts ~ TA_lag1 + PA_lag1 + DL_lag1 + sum_disp #+ population_density
+formlin <- conflicts ~ TA_lag2 + PA_lag2 + DL_lag2 + sum_disp #+ population_density
 
 reg <- lm(formlin, data = data1)
 
@@ -126,4 +128,3 @@ sem <- pspatfit(formula = formlin,
                         method = "eigen",
                         type = "sem",
                         index = c("admin1", "time"))
-
