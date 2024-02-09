@@ -13,9 +13,9 @@ library(rgdal)
 library(car)
 
 
-data1 <- read.csv("csv/df_with_dummies.csv")
-map_it <- st_read("Datasets/som_adm_ocha_itos_20230308_shp/som_admbnda_adm1_ocha_20230308.shp") # nolint: line_length_linter.
-adj_m <- read.csv("csv/adj_som.csv", header = FALSE)
+data1 <- read.csv("/home/sara/Documenti/GitHub/Climate-and-conflict/csv/df_with_dummies.csv")
+map_it <- st_read("/home/sara/Documenti/GitHub/Climate-and-conflict/Datasets/som_adm_ocha_itos_20230308_shp/som_admbnda_adm1_ocha_20230308.shp") # nolint: line_length_linter.
+adj_m <- read.csv("/home/sara/Documenti/GitHub/Climate-and-conflict/csv/adj_som.csv", header = FALSE)
 adj_m <- adj_m[-1, -1]
 adj <- matrix(unlist(adj_m), nrow = 18, ncol = 18)
 
@@ -23,7 +23,7 @@ adj <- matrix(unlist(adj_m), nrow = 18, ncol = 18)
 #data1 <- data1[data1$time <= 2010, ]
 map_it$ADM1_EN <- gsub(" ", "_", map_it$ADM1_EN)
 
-dist <- read.csv("csv/dist_som.csv", header = FALSE)
+dist <- read.csv("/home/sara/Documenti/GitHub/Climate-and-conflict/csv/dist_som.csv", header = FALSE)
 dist <- dist[-1, ]
 dist <- matrix(unlist(dist), nrow = 18, ncol = 18)
 dist <- apply(dist, 2, function(x) as.numeric(as.character(x)))

@@ -12,7 +12,7 @@ library(car)
 library(haven)
 
 
-data1 <- haven::read_dta("/home/sara/Documenti/GitHub/Climate-and-conflict/AJAE_MaystadtEcker.dta") # nolint
+data1 <- haven::read_dta("/home/sara/Documenti/GitHub/Climate-and-conflict/spatial_HAC/AJAE_MaystadtEcker.dta") # nolint
 map_it <- st_read("/home/sara/Documenti/GitHub/Climate-and-conflict/Datasets/som_adm_ocha_itos_20230308_shp/som_admbnda_adm1_ocha_20230308.shp") # nolint: line_length_linter.
 #data1 <- haven::read_dta("C:/Users/PcLaptop/Documents/GitHub/Climate-and-conflict/AJAE_MaystadtEcker.dta") # nolint
 #map_it <- st_read("som_adm_ocha_itos_20230308_shp/som_admbnda_adm1_ocha_20230308.shp") # nolint: line_length_linter.
