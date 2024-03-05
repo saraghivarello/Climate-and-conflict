@@ -28,11 +28,9 @@ lwsp_it <- spdep::mat2listw(adj, style = "W")
 # #disp_flows <- as.matrix(disp_flows)
 # lwsp_disp_flows <- spdep::mat2listw(disp_flows, style = "W")
 
-dist <- read.csv("/home/sara/Documenti/GitHub/Climate-and-conflict/csv/dist_som.csv", header = FALSE)
-dist <- dist[-1, ]
-#square each elements in dist
+dist <- read.csv("/home/sara/Documenti/GitHub/Climate-and-conflict/csv/dist_som_2.csv", header = FALSE)
+dist <- dist[-1,-1]
 dist <- matrix(unlist(dist), nrow = 18, ncol = 18)
-
 dist <- apply(dist, 2, function(x) as.numeric(as.character(x)))
 
 W <- DistWMat(
@@ -42,8 +40,6 @@ W <- DistWMat(
   alpha = NULL,
   mevn = FALSE
 )
-W <- W^2
-
 lwsp_inv <- spdep::mat2listw(W, style = "W")
 
 data1 <- data1[data1$time >= 2016, ]
@@ -86,11 +82,6 @@ sar_1 <- spml(formlin,
                spatial.error="none", 
                lag=TRUE, 
                Hess = FALSE)
-
-#compute r^2
-r2 <- function(sar_1) {   
-                        summary(sar_1)$r.squared}
-
 
 sarar <- pspatfit(formula = formlin,
                         data = data1, 

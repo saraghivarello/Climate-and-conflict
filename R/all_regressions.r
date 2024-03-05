@@ -44,11 +44,28 @@ lmh_log1 <- lm(form_all_log_lmh1, data = data_norm)
 lmh_log2 <- lm(form_all_log_lmh2, data = data_norm)
 stargazer(lmh_log, lmh_log1, lmh_log2, type = "text", out = "lmh_log_latex.tex")
 
+
 #all regions log
-log_ind <- plm(form_all_log, data = data_norm, model = "within", index = c("Current..Arrival..Region","month"), effect = "individual")
-log_time <- plm(form_all_log, data = data_norm, model = "within", index = c("Current..Arrival..Region","month"), effect = "time")
+log_ind <- plm(form_all_log, data = data_norm, model = "within", index = c("Current..Arrival..Region"), effect = "individual")
+log_time <- plm(form_all_log, data = data_norm, model = "within", index = c("month"), effect = "time")
 log_two <- plm(form_all_log, data = data_norm, model = "within", index = c("Current..Arrival..Region","month"), effect = "twoways")
-#stargazer(log_ind, log_time, log_two, type = "latex", out = "plm_log_latex.tex")
+stargazer(log_ind, log_time, log_two, type = "text", out = "plm_log_latex.tex")
+
+
+y_true <- data_norm$Disp_log
+y_pred <- predict(log_ind)
+y_mean <- mean(y_true)
+TSS <- sum((y_true - y_mean)^2)
+RSS <- sum((y_true - y_pred)^2)
+r_squared <- 1 - (RSS / TSS)
+
+print(paste("R-squared value is: ", r_squared))
+print(summary(log_ind)$r.squared)
+#print(r.squared(log_ind, model = NULL, type = "cor", dfcor = FALSE))
+
+#fitted-vs-observed plot
+plot(as.numeric(y_true - residuals(log_ind)), y_true, asp = 1)
+abline(0, 1, col = 'red', lty = 'dashed', lwd = 2)
 
 #all regions together lag 3
 f_all_ind_3 <- plm(form_all_3, data = data_conc_3, model = "within", index = c("Current..Arrival..Region","month"), effect = "individual")
@@ -86,7 +103,7 @@ lmh_b_log1 <- lm(form_ban_log, data = data_ban_norm)
 f_ind_b_log1 <- plm(form_ban_log, data = data_ban_norm, model = "within", index = c("admin1","month"), effect = "individual")
 f_time_b_log1 <- plm(form_ban_log, data = data_ban_norm, model = "within", index = c("admin1","month"), effect = "time")
 f_two_b_log1 <- plm(form_ban_log, data = data_ban_norm, model = "within", index = c("admin1","month"), effect = "twoways")
-stargazer(lmh_b_log1, f_ind_b_log1, f_time_b_log1, f_two_b_log1, type = "text", out = "plm_log_latex.tex")
+#stargazer(lmh_b_log1, f_ind_b_log1, f_time_b_log1, f_two_b_log1, type = "text", out = "plm_log_latex.tex")
 
 lmh_b_y <- lm(form_ban_y, data = data_ban_y)
 f_ind_b_y <- plm(form_ban_y, data = data_ban_y, model = "within", index = c("admin1","month"), effect = "individual")
