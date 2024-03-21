@@ -10,25 +10,15 @@ library(splm)
 library(rgdal)
 library(car)
 
-data_confl <- read.csv("/home/sara/Documenti/GitHub/Climate-and-conflict/csv/df_flood.csv")
+
+data_d2 <- read.csv("/home/sara/Documenti/GitHub/Climate-and-conflict/csv/df_std_log_d_lag.csv")
 
 
-form_lmh <- Disp_log ~ x + TA_lag2 + PA_lag2 + DL_lag2 + inv_distance + conflicts + gdp_mean_origin  + gdp_mean_destination + population_density_origin + population_density_destination #+ accessibility_to_cities_mean_origin + accessibility_to_cities_mean_destination#+ PA_lag3 + DL_lag3 + inv_distance
-form <- Disp_log ~ x + TA_lag2 + PA_lag2 + DL_lag2 + inv_distance_2 + conflicts  +gdp_mean_origin  + gdp_mean_destination + population_density_origin + population_density_destination
-form_1 <- Disp_log ~ x + TA_lag2 + PA_lag2 + DL_lag2 + inv_distance + inv_distance_2 + conflicts  + gdp_mean_origin + gdp_mean_destination + population_density_origin + population_density_destination
-f_plm <- Disp_log ~ x + TA_lag2 + PA_lag2 + DL_lag2 + inv_distance + conflicts 
-lmh <- lm(form_lmh, data = data_confl)
-#stargazer(lmh, type = "text", out = "lmh_log.txt")
+form_lmh <- conflicts ~  TA + PA + DL + TA_lag1 + PA_lag1 + DL_lag1 + sum_disp + sum_disp # + population_density
 
-lmh_log <- lm(form_lmh, data = data_confl)
-lmh_log1 <- lm(form, data = data_confl)
-lmh_log2 <- lm(form_1, data = data_confl)
+lmh_log <- lm(form_lmh, data = data_d2)
 #stargazer(lmh_log, lmh_log1, lmh_log2, type = "latex", out = "lmh_log_latex.tex")
 
-
-#all regions log
-log_ind <- plm(f_plm, data = data_confl, model = "within", index = c("Current..Arrival..Region","month"), effect = "individual")
-log_time <- plm(f_plm, data = data_confl, model = "within", index = c("Current..Arrival..Region","month"), effect = "time")
-log_two <- plm(f_plm, data = data_confl, model = "within", index = c("Current..Arrival..Region","month"), effect = "twoways")
-stargazer(log_ind, log_time, log_two, type = "text", out = "plm_log_latex.tex")
+log_two <- plm(form_lmh, data = data_d2, model = "within", index = c("admin1","month"), effect = "twoways")
+stargazer(lmh_log, log_two, type = "text", out = "plm_conf_log_latex.tex")
 

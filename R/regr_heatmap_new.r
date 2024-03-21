@@ -71,15 +71,15 @@ lm_lag5 <- lm(form_lag5, data = data_c)
 lm_lag6 <- lm(form_lag6, data = data_c)
 stargazer(lm, lm_lag1, lm_lag2, lm_lag3, lm_lag4, lm_lag5, lm_lag6, type = "text", out = "lm_latex_confl.tex")
 
-#store regression coefficients in a dataframe
-lm_all <- data.frame(lm$coefficients, lm_lag1$coefficients, lm_lag2$coefficients, lm_lag3$coefficients, lm_lag4$coefficients, lm_lag5$coefficients, lm_lag6$coefficients)
-write.csv(lm_all, file = "latex/lm_all_new_confl.csv")
-# print lm r squared
-lm_r_all <- data.frame(summary(lm)$adj.r.squared, summary(lm_lag1)$adj.r.squared, summary(lm_lag2)$adj.r.squared, summary(lm_lag3)$adj.r.squared, summary(lm_lag4)$adj.r.squared, summary(lm_lag5)$adj.r.squared, summary(lm_lag6)$adj.r.squared)
-write.csv(lm_r_all, file = "latex/lm_r_all_new_confl.csv")
-# print lm p values
-lm_p_all <- data.frame(summary(lm)$coefficients[,4], summary(lm_lag1)$coefficients[,4], summary(lm_lag2)$coefficients[,4], summary(lm_lag3)$coefficients[,4], summary(lm_lag4)$coefficients[,4], summary(lm_lag5)$coefficients[,4], summary(lm_lag6)$coefficients[,4])
-write.csv(lm_p_all, file = "latex/lm_p_all_new_confl.csv")
-# print Observations with nobs()
-lm_obs_all <- data.frame(nobs(lm))
-write.csv(lm_obs_all, file = "latex/lm_obs_new_confl.csv")
+# #store regression coefficients in a dataframe
+# lm_all <- data.frame(lm$coefficients, lm_lag1$coefficients, lm_lag2$coefficients, lm_lag3$coefficients, lm_lag4$coefficients, lm_lag5$coefficients, lm_lag6$coefficients)
+# write.csv(lm_all, file = "latex/lm_all_new_confl.csv")
+# # print lm r squared
+# lm_r_all <- data.frame(summary(lm)$adj.r.squared, summary(lm_lag1)$adj.r.squared, summary(lm_lag2)$adj.r.squared, summary(lm_lag3)$adj.r.squared, summary(lm_lag4)$adj.r.squared, summary(lm_lag5)$adj.r.squared, summary(lm_lag6)$adj.r.squared)
+# write.csv(lm_r_all, file = "latex/lm_r_all_new_confl.csv")
+# # print lm p values
+# lm_p_all <- data.frame(summary(lm)$coefficients[,4], summary(lm_lag1)$coefficients[,4], summary(lm_lag2)$coefficients[,4], summary(lm_lag3)$coefficients[,4], summary(lm_lag4)$coefficients[,4], summary(lm_lag5)$coefficients[,4], summary(lm_lag6)$coefficients[,4])
+# write.csv(lm_p_all, file = "latex/lm_p_all_new_confl.csv")
+# # print Observations with nobs()
+# lm_obs_all <- data.frame(nobs(lm))
+# write.csv(lm_obs_all, file = "latex/lm_obs_new_confl.csv")

@@ -58,14 +58,15 @@ fe_lag6 <- plm(form_6,
               index = c("admin1","time"), 
               effect = "twoways")
 
+
+fixefs <- fixef(fe, "twoways")
+fitted_by_hand <- fixefs + fe$coefficients["TA"] * fe$model$TA +fe$coefficients["PA"] * fe$model$PA + fe$coefficients["DL"] * fe$model$DL
+
 try <- plm(conflicts ~  as.numeric(fitted_by_hand), 
               data = data_d2, 
               model = "within", 
               index = c("admin1","time"), 
               effect = "twoways")
-
-fixefs <- fixef(fe, "twoways")
-fitted_by_hand <- fixefs + fe$coefficients["TA"] * fe$model$TA +fe$coefficients["PA"] * fe$model$PA + fe$coefficients["DL"] * fe$model$DL
 
 yhat <- as.numeric(fe$model[ , 1] - fe$residuals) # reference
 yhat1 <- as.numeric(predict(fe)) # fitted values
