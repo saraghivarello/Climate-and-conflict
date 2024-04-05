@@ -11,27 +11,47 @@ library(rgdal)
 library(car)
 
 
-data_d <- read.csv("/home/sara/Documenti/GitHub/Climate-and-conflict/csv/df_norm_districts_c_dist.csv")
-#data_d <- read.csv("/home/sara/Documenti/GitHub/Climate-and-conflict/csv/df_districts.csv")
-
-#lag 
-form_lag1 <- Displacements_log ~ TA_lag2_dep + PA_lag2_dep + DL_lag2_dep + conflicts_lag2_dep + TA_lag2_arr + PA_lag2_arr + DL_lag2_arr + conflicts_lag2_arr + dist_centroids + pop_count_dep + pop_count_arr + gdp_mean_dep + gdp_mean_arr
-form_lag1_log <- Displacements_log ~ TA_lag2_dep_log + PA_lag2_dep_log + DL_lag2_dep_log + conflicts_lag2_dep_log + TA_lag1_arr_log + PA_lag1_arr_log + DL_lag1_arr_log + conflicts_lag1_arr_log 
+#data_d <- read.csv("/home/sara/Documenti/GitHub/Climate-and-conflict/csv/df_norm_districts_dist.csv")
+#data_c <- read.csv("/home/sara/Documenti/GitHub/Climate-and-conflict/csv/df_norm_districts_c_dist.csv")
+data_d <- read.csv("/home/sara/Documenti/GitHub/Climate-and-conflict/csv/df_distr_std.csv") 
+data_c <- read.csv("/home/sara/Documenti/GitHub/Climate-and-conflict/csv/df_distr_std_c.csv")
 
 
-lm <- lm(form_lag1, data = data_d)
-lm_lag1_log <- lm(form_lag1_log, data = data_d)
-
-plm_lag1_i <- plm(form_lag1, data = data_d, index = c("Current..Arrival..District", "time"), model = "within", effect = "individual")
-plm_lag1_t <- plm(form_lag1, data = data_d, index = c("Current..Arrival..District", "time"), model = "within", effect = "time")
-plm_lag1_two <- plm(form_lag1, data = data_d, index = c("Current..Arrival..District", "time"), model = "within", effect = "twoways")
+#formulas 
+form <- log(Displ_norm_origin) ~ TA_lag2_dep + PA_lag2_dep + DL_lag2_dep + conflicts_lag2_dep + TA_lag2_arr + PA_lag2_arr + DL_lag2_arr + conflicts_lag2_arr + dist_centroids + population_dep + population_arr + gdp_dep + gdp_arr
+#form_log <- Displacements_log ~ TA_lag2_dep_log + PA_lag2_dep_log + DL_lag2_dep_log + conflicts_lag2_dep_log + TA_lag2_arr_log + PA_lag2_arr_log + DL_lag2_arr_log + conflicts_lag2_arr_log + dist_centroids_log + pop_count_dep_log + pop_count_arr_log + gdp_mean_dep_log + gdp_mean_arr_log
 
 
-stargazer(lm, plm_lag1_two, type = "latex", out = "lm_districts.tex")
+#drought
+
+lm <- lm(form, data = data_d)
+plm_i <- plm(form, data = data_d, index = c("Current..Arrival..District", "time"), model = "within", effect = "individual")
+plm_t <- plm(form, data = data_d, index = c("Current..Arrival..District", "time"), model = "within", effect = "time")
+plm_two <- plm(form, data = data_d, index = c("Current..Arrival..District", "time"), model = "within", effect = "twoways")
+
+# lm_log <- lm(form_log, data = data_d)
+# plm_i_log <- plm(form_log, data = data_d, index = c("Current..Arrival..District", "time"), model = "within", effect = "individual")
+# plm_t_log <- plm(form_log, data = data_d, index = c("Current..Arrival..District", "time"), model = "within", effect = "time")
+# plm_two_log <- plm(form_log, data = data_d, index = c("Current..Arrival..District", "time"), model = "within", effect = "twoways")
+
+stargazer(lm, plm_two, type = "latex", out = "lm_districts.tex")
+# #conflict
+
+lm_c <- lm(form, data = data_c)
+plm_i_c <- plm(form, data = data_c, index = c("Current..Arrival..District", "time"), model = "within", effect = "individual")
+plm_t_c <- plm(form, data = data_c, index = c("Current..Arrival..District", "time"), model = "within", effect = "time")
+plm_two_c <- plm(form, data = data_c, index = c("Current..Arrival..District", "time"), model = "within", effect = "twoways")
+
+# lm_log_c <- lm(form_log, data = data_c)
+# plm_i_log_c <- plm(form_log, data = data_c, index = c("Current..Arrival..District", "time"), model = "within", effect = "individual")
+# plm_t_log_c <- plm(form_log, data = data_c, index = c("Current..Arrival..District", "time"), model = "within", effect = "time")
+# plm_two_log_c <- plm(form_log, data = data_c, index = c("Current..Arrival..District", "time"), model = "within", effect = "twoways")
+
+stargazer(lm_c, plm_two_c, type = "latex", out = "lm_districts.tex")
 
 
 #compute vif
-vif_values <- vif(lm_lag1_log)
+#vif_values <- vif(lm_lag1_log)
 #barplot(vif_values, main="VIF Values", horiz=TRUE, col="skyblue", las=1, cex.names=1)
 
 

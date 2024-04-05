@@ -26,7 +26,7 @@ form_log <- Displacements_log ~ log(TA_dep_lag_based_on_distance) + log(PA_dep_l
 form1_log <- Displacements_log ~ log(TA_lag_dep_based_on_distance) + log(PA_lag_dep_based_on_distance) + log(DL_lag_dep_based_on_distance) + log(conflicts_lag_dep_based_on_distance) + TA_lag1_arr_log + PA_lag1_arr_log + DL_lag1_arr_log + conflicts_lag1_arr_log + distance_log + gdp_mean_dep_log + gdp_mean_arr_log + pop_count_dep_log + pop_count_arr_log
 
 #lag 
-form_lag1 <- Displacements_log ~ TA_lag2_dep + PA_lag2_dep + DL_lag2_dep + conflicts_lag2_dep + TA_lag1_arr + PA_lag1_arr + DL_lag1_arr + conflicts_lag1_arr + distance + gdp_mean_dep + gdp_mean_arr + pop_count_dep + pop_count_arr
+form_lag1 <- Displacements_log ~ TA_lag2_dep + PA_lag2_dep + DL_lag2_dep + conflicts_lag2_dep + TA_lag2_arr + PA_lag2_arr + DL_lag2_arr + conflicts_lag2_arr + distance + gdp_mean_dep + gdp_mean_arr + pop_count_dep + pop_count_arr
 form_lag1_log <- Displacements_log ~ TA_lag2_dep_log + PA_lag2_dep_log + DL_lag2_dep_log + conflicts_lag2_dep_log + TA_lag1_arr_log + PA_lag1_arr_log + DL_lag1_arr_log + conflicts_lag1_arr_log + distance_log + gdp_mean_dep_log + gdp_mean_arr_log + pop_count_dep_log + pop_count_arr_log
 
 
@@ -37,13 +37,13 @@ lm1 <- lm(form, data = data_c)
 lm_lag1 <- lm(form_lag1, data = data_d)
 lm1_lag1 <- lm(form_lag1, data = data_c)
 
-plm_lag1 <- plm(form_lag1, data = data_d, index = c("Previous..Departure..Region", "time"), model = "within", effect = "time")
-plm1_lag1 <- plm(form_lag1, data = data_c, index = c("Previous..Departure..Region", "time"), model = "within", effect = "time")
+plm_lag1 <- plm(form_lag1, data = data_d, index = c("Previous..Departure..Region", "time"), model = "within", effect = "twoways")
+plm1_lag1 <- plm(form_lag1, data = data_c, index = c("Previous..Departure..Region", "time"), model = "within", effect = "twoways")
 
 lm_lag1_log <- lm(form_lag1_log, data = data_d)
 lm1_lag1_log <- lm(form_lag1_log, data = data_c)
 
-stargazer(lm_lag1_log, lm1_lag1_log, type = "latex", out = "lm_latex_gravity_log.tex")
+stargazer(lm1_lag1, plm1_lag1, type = "latex", out = "lm_latex.tex")
 
 #check if the errors have mean zero 
 #yhat <- predict(lm_lag5_log)
@@ -58,7 +58,10 @@ vif_values <- vif(lm_lag1_log)
 #names(vif_values) <- names(lm_lag1_log$coefficients)
 
 # Create a horizontal bar chart
-barplot(vif_values, main="VIF Values", horiz=TRUE, col="skyblue", las=1, cex.names=1)
+#barplot(vif_values, main="VIF Values", horiz=TRUE, col="skyblue", las=1, cex.names=1)
+
+
+
 
 # #store regressoin coefficients in a dataframe
 # lm_all <- data.frame(lm$coefficients, lm_lag1$coefficients, lm_lag2$coefficients, lm_lag3$coefficients, lm_lag4$coefficients, lm_lag5$coefficients, lm_lag6$coefficients)
