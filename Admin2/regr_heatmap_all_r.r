@@ -35,7 +35,7 @@ plm_i_log <- plm(form_log, data = data_n, index = c("admin2"), model = "within",
 plm_t_log <- plm(form_log, data = data_n, index = c("time"), model = "within", effect = "time")
 plm_two_log <- plm(form_log, data = data_n, index = c("admin2", "time"), model = "within", effect = "twoways")
 
-stargazer(lm_log, plm_two_log, type = "latex", out = "plm_districts_log.tex")
+stargazer(lm_log, plm_two_log, type = "text", out = "plm_districts_log.tex")
 
 
 
